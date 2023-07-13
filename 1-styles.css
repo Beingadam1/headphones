@@ -34,6 +34,10 @@ a:hover {
   color: var(--primary-color);
 }
 
+p {
+  line-height: 1.4;
+}
+
 li {
   list-style: none;
 }
@@ -113,6 +117,39 @@ button:hover {
   visibility: hidden;
   opacity: 0;
 }
+/* End of Home section*/
+
+/* What we do section */
+.what-container {
+  text-align: center;
+}
+
+.what-container h2 {
+  font-size: 1.65rem;
+  line-height: 1.2;
+  padding-top: 4rem;
+}
+
+.what-container .sub-title {
+  max-width: 500px;
+  margin: 2.5rem auto 5rem;
+}
+
+.what-container .card {
+  display: flex;
+  gap: 1.3rem;
+}
+
+.what-container .card .card-item h3 {
+  padding: 1.3rem 0;
+  font-size: 1.1rem;
+}
+
+.what-container .card .card-item i {
+  color: var(--primary-color);
+}
+
+/* End of What we do section */
 
 /* Media Query */
 /* Tablet */
@@ -165,6 +202,11 @@ button:hover {
 
   .hero-container p {
     font-size: 1rem;
+  }
+
+  /* what we do */
+  .what-container .card {
+    flex-wrap: wrap;
   }
 }
 
