@@ -284,8 +284,44 @@ button:hover {
 .contact .form-wrap button {
   margin: 2rem auto 3rem;
 }
-
 /*  End of contact us section */
+
+/* footer */
+footer {
+  background-color: var(--secondary-color);
+}
+
+footer p {
+  text-align: center;
+  color: var(--text-color-white);
+  font-size: 0.6rem;
+}
+
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 0 3rem;
+}
+
+.footer-wrap a img {
+  width: 200px;
+}
+
+.footer-wrap .socials i {
+  color: var(--text-color-white);
+  padding-right: 0.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.footer-wrap .socials i:hover {
+  color: var(--primary-color);
+}
+
+/* End of footer */
 
 /* Media Query */
 /* Tablet */
@@ -345,7 +381,7 @@ button:hover {
     flex-wrap: wrap;
   }
 
-  /* what we do */
+  /* our results */
   .our-results .card {
     flex-wrap: wrap;
   }
@@ -386,6 +422,16 @@ button:hover {
 
   .hero-container p {
     max-width: 300px;
+  }
+
+  /* footer */
+  .footer-wrap {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer-wrap a img {
+    padding-bottom: 1rem;
   }
 }
 
